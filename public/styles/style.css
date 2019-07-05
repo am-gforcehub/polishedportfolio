@@ -110,3 +110,18 @@ h2 {
 #myCarousel {
   height: 100%;
 }
+
+.resumeHead {
+  color: #f5f5f5;
+  font-family: "brave";
+}
+.resume {
+  background-color: #f5f5f5;
+}
+
+#someOfMyWork {
+  font-family: "brave";
+  text-align: center;
+  font-size: 3rem;
+  padding: 10px;
+}

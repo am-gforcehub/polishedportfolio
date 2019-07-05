@@ -9,6 +9,7 @@
       <title>Bootstrap Example</title>
     </head>
     <body>
+        <div class="container">
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -26,15 +27,15 @@
           <a  href="https://github.com/am-gforcehub" class="btn btn-social-icon btn-twitter">
             <span class="fa fa-github" style="font-size:35px; color: #f5f5f5;"></span>
           </a>
-          <a  src="resume.html" class="btn btn-social-icon btn-twitter">
+          <a  href="https://drive.google.com/file/d/1miBs8KZW5Vy_pXjLS2X0WmYAhdajtJy1/view?usp=sharing" class="btn btn-social-icon btn-twitter">
             <span class="fa fa-file" style="font-size:25px; color: #f5f5f5;"></span>
           </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav nav-right">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="#aboutMeTitle">About</a></li>
+            <li><a href="#someOfMyWork">Gallery</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Tech News</a></li>
   
@@ -50,6 +51,9 @@
       <div class="container text-center">
         <h1>Alicia M. Garcia</h1>
         <p class="subtitle">Full Stack Web Developer</p>
+        <!-- future development: set up spotify api -->
+      
+        
       </div>
     </div>
   
@@ -57,92 +61,156 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="card">
-            <h5 class="card-title divider text-white aboutMe">ABOUT ME</h5>
+            <h5 class="card-title divider text-white aboutMe" id="aboutMeTitle">ABOUT ME</h5>
   
             <div class="card-body">
               <img src="public/images/kissclipart-woman-computer-programmer-clipart-computer-program-462fb3955bf62badcopy.png"
                 alt="girlonpc" class="aboutMeImg">
   
               <p class="card-text">
-  <p>
+            <p>
                 Hello, I’m Alicia! I’m a motivated and enthusiastic professional committed to pursuing a long term career in full stack web development.  I have 15 years of forensic science work experience, specifically in the field of fingerprint examinations.  As a fingerprint expert I have worked in dynamic and collaborative environments which has strengthened my analytical problem solving abilities and exceptional interpersonal skills in leadership, time management and communication.    </p>
-<P>
+            <P>
                 I’m effective at combining conceptual thinking with diverse solutions to deliver web applications from inception to completion.  I have the proven ability to adapt to requirement changes and quickly learn new technologies.  I am consistently able to meet goals and produce high quality results.
                 </p>
-                <p>
-                As a full stack web developer, I have built web applications that utilize HTML, CSS, JavaScript, jQuery, AJAX, RESTful APIs, Bootstrap, Handlebars.js, Firebase, Node.js, Express.js, React.js, MongoDB, MySQL, Sequelize, MVC, Heroku, and Git. An as enjoyable as this 24 week journey has been, I am looking forward to arriving at my destination.  Because I am excited about the future prospect of being able to contribute on a team, making an impact on projects and continuing to develop new skills along the way.     </p>
-                
-                
+            <p>
+                As a full stack web developer, I have built web applications that utilize HTML, CSS, JavaScript, jQuery, AJAX, RESTful APIs, Bootstrap, Handlebars.js, Firebase, Node.js, Express.js, React.js, MongoDB, MySQL, Sequelize, MVC, Heroku, and Git. This 24 week bootcamp has been an enjoyble experience for me and I am looking forward to what my future has in store.  I am excited about the prospect of being able to contribute on a team, making an impact on projects and continuing to develop new skills along the way.     </p>
+                    
               </p>
   
             </div>
           </div>
         </div>
-        <div class="col-xs-3">
-          <h2 class="title divider text-white bg-dark">INSPIRED</h2>
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-  
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <img src="public/images/aaron-burden-361231-unsplash.jpg" alt="Los Angeles" style="width:100%;">
-              </div>
-  
-              <div class="item">
-                <img src="public/images/casey-horner-1467959-unsplash.jpg" alt="Chicago" style="width:100%;">
-              </div>
-  
-              <div class="item">
-                <img src="public/images/eberhard-grossgasteiger-706486-unsplash.jpg" alt="New york" style="width:100%;">
+    </div>
+    <div class="container">   
+            <h3 id="someOfMyWork">SOME OF MY WORK</h3><br>  
+      
+          <div class="col-sm-3">
+            <div class="card-body projectCard">
+              <h4 class="card-title">Crystal Collector</h4>
+              <img src="public/images/crystalcollectorgame.png" class="img-responsive" alt="Image">
+           <p class="card-text">Some example text. Some example text.</p>
+              <a href="#" class="card-link">GitHub</a>
+              <a href="#" class="card-link">Webpage</a>
+            </div>
+        </div>
+          
+            <div class="col-sm-3">
+             <div class="card-body projectCard">
+                 <h4 class="card-title">Giftastic</h4>
+                <img src="public/images/giftastic.png" class="img-responsive" alt="Image">
+             <p class="card-text">Some example text. Some example text.</p>
+                <a href="#" class="card-link">GitHub</a>
+                <a href="#" class="card-link">Webpage</a>
               </div>
             </div>
-  
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-  
-  
-  
-  
-      <h3>Some of my Work</h3><br>
-      <div class="row">
-        <div class="col-sm-3">
-          <p>Some text..</p>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-3">
-          <p>Some text..</p>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-3">
-          <p>Some text..</p>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-3">
-          <p>Some text..</p>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-      </div>
-      <br>
+            
+              <div class="col-sm-3">
+              <div class="card-body projectCard">
+                    <h4 class="card-title">Trivia Game</h4>
+                    <img src="public/images/triviagame.png" class="img-responsive" alt="Image">
+                 <p class="card-text">Some example text. Some example text.</p>
+                    <a href="#" class="card-link">GitHub</a>
+                    <a href="#" class="card-link">Webpage</a>
+                  </div>
+            </div>
+                
+                  <div class="col-sm-3">
+                  <div class="card-body projectCard">
+                        <h4 class="card-title">Train Scheduler</h4>
+                        <img src="public/images/trainscheduler.png" class="img-responsive" alt="Image">
+                     <p class="card-text">Some example text. Some example text.</p>
+                        <a href="#" class="card-link">GitHub</a>
+                        <a href="#" class="card-link">Webpage</a>
+                      </div>
+                    </div>
+                </div>
+                    
+                    <div class="col-sm-3">
+                            <div class="card-body projectCard">
+                              <h4 class="card-title">Liri-Bot</h4>
+                              <img src="public/images/liri-bot.png" class="img-responsive" alt="Image">
+                           <p class="card-text">Some example text. Some example text.</p>
+                              <a href="#" class="card-link">GitHub</a>
+                              <a href="#" class="card-link">Webpage</a>
+                            </div>
+                        </div>
+                          
+                            <div class="col-sm-3">
+                             <div class="card-body projectCard">
+                                 <h4 class="card-title">Friend Finder</h4>
+                                <img src="public/images/friendfinder.png" class="img-responsive" alt="Image">
+                             <p class="card-text">Some example text. Some example text.</p>
+                                <a href="#" class="card-link">GitHub</a>
+                                <a href="#" class="card-link">Webpage</a>
+                              </div>
+                            </div>
+                            
+                              <div class="col-sm-3">
+                              <div class="card-body projectCard">
+                                    <h4 class="card-title">Bamazon</h4>
+                                    <img src="public/images/Node.js-MySQL-Bamazon.png" class="img-responsive" alt="Image">
+                                 <p class="card-text">Some example text. Some example text.</p>
+                                    <a href="#" class="card-link">GitHub</a>
+                                    <a href="#" class="card-link">Webpage</a>
+                                  </div>
+                            </div>
+                                
+                                  <div class="col-sm-3">
+                                  <div class="card-body projectCard">
+                                        <h4 class="card-title">Group Project 2</h4>
+                                        <img src="public/images/home-page.png" class="img-responsive" alt="Image">
+                                     <p class="card-text">Some example text. Some example text.</p>
+                                        <a href="#" class="card-link">GitHub</a>
+                                        <a href="#" class="card-link">Webpage</a>
+                                      </div>
+                                    </div>
+                        </div>
+                    
+         
+    
+       
+      
+      
       <div class="row">
         <div class="col-sm-6">
-          <h1>Tech News</h1>
-          <div id="feed"></div>
+                <h2 class="title divider text-white bg-dark">Tech News</h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+        
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="public/images/aaron-burden-361231-unsplash.jpg" alt="Los Angeles" style="width:100%;">
+                    </div>
+        
+                    <div class="item">
+                      <img src="public/images/casey-horner-1467959-unsplash.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+        
+                    <div class="item">
+                      <img src="public/images/eberhard-grossgasteiger-706486-unsplash.jpg" alt="New york" style="width:100%;">
+                    </div>
+                  </div>
+        
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+        
         </div>
   
         <div class="col-sm-6">
@@ -178,12 +246,13 @@
   
   
         </div>
-      </div>
     </div>
+</div>
 
 
 
-  </div>
+  
+
   
   
   <br><br>
