@@ -22,17 +22,23 @@ body {
 h1 {
   margin-left: 15px;
   font-family: "brave";
+  margin-top: 60px;
 }
+/* .navbar-header {
+  margin-left: 15px;
+  font-family: "brave";
+  font-size: 30px;
+} */
 
 .btn-twitter {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #navbar {
   margin: 0;
   width: 100%;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: 9999;
   background-color: #222;
   color: #f5f5f5;
@@ -49,7 +55,7 @@ h1 {
 
 .nav-link {
   color: #f5f5f5;
-  padding: 14px;
+  padding: 30px;
 }
 
 .content {
@@ -57,7 +63,7 @@ h1 {
 }
 
 .sticky + .content {
-  padding-top: 60px;
+  padding: -100px;
 }
 
 .nav-right {
@@ -70,19 +76,21 @@ h1 {
   font-family: "brave";
   background-color: #222 !important;
   color: #f5f5f5;
+  margin-top: 60px;
+  padding-top: 100px;
 }
 
-.jumbo {
+/* .jumbo {
   margin-top: 100px;
-}
+} */
 
 .subtitle {
   text-align: center;
 }
 
 .aboutMeImg {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   float: left;
   padding-right: 15px;
   border-radius: 50%;
@@ -101,9 +109,39 @@ h1 {
   font-size: 3rem;
 }
 
+.tiger {
+  width: 200px;
+  height: 200px;
+  margin: -60px 0 0 -60px;
+  top: 50%;
+  left: 50%;
+
+  -webkit-animation: spin 20s linear infinite;
+  -moz-animation: spin 20s linear infinite;
+  animation: spin 20s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 p {
   font-size: 20px;
   text-align: justify;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .projectP {
